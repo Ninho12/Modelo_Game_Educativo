@@ -8,13 +8,50 @@
 
     margin: 20px auto;
     text-align: center;
+
+    border: 1px solid black;
+
+    padding-top: 20px;
 }
 
 #container img{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
+
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
 #container h1{
     font-size: 30px;
+}
+
+#container ul{
+    list-style-type: none;
+    padding: 10px;
+}
+
+#container ul li{
+    margin-top: 25px;
+}
+
+#container a{
+    border: 1px solid #000;
+    font-size: 20px;
+    
+    padding: 10px 25px;
+
+    text-decoration: none;
+    text-transform: capitalize;
+    font-style: bold;
+    color: black;
+
+    transition: 500ms;
+}
+
+#container a:hover{
+    background-color: black;
+    color: white;
+
+    transition: 500ms;
 }
